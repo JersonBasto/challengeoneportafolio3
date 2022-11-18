@@ -1,24 +1,122 @@
 <html>
-  <head> 
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Mi Portafolio</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/all.css" />
+    <link rel="stylesheet" href="./css/menu.css" />
+    <link rel="stylesheet" href="./css/titulo.css" />
+    <link rel="stylesheet" href="./css/sobre_mi.css" />
+    <link rel="stylesheet" href="./css/skills.css" />
+    <title>Mi Portafolio</title>
   </head>
   <body>
-    <header>
-      <div>
-        <span>Jerson Daniel Basto Gil</span>
+    <section class="menu">
+      <header>
+        <h3 class="menu_nombre">Jerson Daniel Basto Gil</h3>
+      </header>
+      <nav class="list">
+        <ul class="menu_list">
+          <li class="menu_list_item"><a href="#sobre_mi">Sobre mi</a></li>
+          <li class="menu_list_item"><a href="#skills">Skills</a></li>
+          <li class="menu_list_item"><a href="#hobbies">Hobbies</a></li>
+          <li class="menu_list_item"><a href="#formacion">Formacion</a></li>
+          <li class="menu_list_item"><a href="#proyectos">Proyectos</a></li>
+          <li class="menu_list_item"><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </section>
+    <section class="titulo" id="titulo">
+      <div class="titulo_div">
+        <div class="titulo_info">
+          <h2 class="titulo_info_nombre">
+            Hola mi nombre es Jerson Daniel Basto Gil
+          </h2>
+          <h3 class="titulo_info_bio">
+            Soy ingeniero electrico de la Universidad Distrital Francisco Jose
+            de Caldas, complete el curso Mision TIC 2021 y estoy participando en
+            el proyecto Oracle ONE en Alura Team.
+          </h3>
+          <ul class="menu_redes">
+            <li class="menu_redes_item"><img class="menu_redes_item_image" src="./images/github.png"><a href="#">Github</a></li>
+            <li class="menu_redes_item"><img class="menu_redes_item_image" src="./images/linkedin.png"><a href="#">Linkedin</a></li>
+            <li class="menu_redes_item"><img class="menu_redes_item_image" src="./images/instagram.png"><a href="#">Instagram</a></li>
+            <li class="menu_redes_item"><img class="menu_redes_item_image" src="./images/hv.png"><a href="#">Hoja de Vida</a></li>
+          </ul>
+        </div>
+        <img class="titulo_image" src="./images/Foto_practica.jpeg" />
       </div>
-      <div>
-        <span>Sobre mi</span>
-        <span>Skills</span>
-        <span>Hobbies</span>
-        <span>Formacion</span>
-        <span>Proyectos</span>
-        <span>jdbastog@correo.udistrital.edu.co</span>
+    </section>
+    <section class="sobre_mi" id="sobre_mi">
+      <div class="sobre_mi_div">
+        <h2 class="sobre_mi_titulo">Sobre mi</h2>
+        <h3 class="sobre_mi_info">
+          Soy un estudiante de 26 años, recien graduado de la Universidad
+          Distrital Francisco Jose de Caldas en la carrera de Ingenieria
+          Electrica, me apasiona aprender cosas nuevas, la programacion fue una
+          de ellas y me gusto bastante, al comienzo aprendi de forma autodidacta
+          con python, con el tiempo empece a realizar cursos, fue donde realice
+          el curso de Mision TIC y me di cuenta que la programacion es algo que
+          me gusta, soy una persona muy curiosa, me encanta la tecnologia y me
+          gustaria avanzar junto a ella.
+        </h3>
       </div>
-    </header>
+    </section>
+    <section class="skills" id="skills">
+      <div class="skills_container">
+        <h3 class="skills_titulo">Skills</h3>
+        <div class="skills_div">
+          <div class="skills_item">
+            <img class="skills_image" src="./images/python.png">
+            <span>Python</span>
+          </div>
+          <div class="skills_item">
+            <img class="skills_image" src="./images/java.png">
+            <span>Java</span>
+          </div>
+          <div class="skills_item">
+            <img class="skills_image" src="./images/java-script.png">
+            <span>JavaScript</span>
+          </div>
+          <div class="skills_item">
+            <img class="skills_image" src="./images/html.png">
+            <span>HTML</span>
+          </div>
+          <div class="skills_item">
+            <img class="skills_image" src="./images/css-3.png">
+            <span>CSS</span>
+          </div>
+          <div class="skills_item">
+            <img class="skills_image" src="./images/atom.png">
+            <span>React JS</span>
+          </div>
+          <div class="skills_item">
+            <img class="skills_image" src="./images/graphql.png">
+            <span>GraphQL</span>
+          </div>
+          <div class="skills_item">
+            <img class="skills_image" src="./images/nodejs.png">
+            <span>Node JS</span>
+          </div>
+          <div class="skills_item">
+            <img class="skills_image" src="./images/spring-boot.png">
+            <span>Spring Boot</span>
+          </div>
+          <div class="skills_item">
+            <img class="skills_image" src="./images/sql.png">
+            <span>SQL</span>
+          </div>
+          <div class="skills_item">
+            <img class="skills_image" src="./images/mongodb.png">
+            <span>MongoDB</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="hobbies" id="hobbies"></section>
+    <section class="formacion" id="formacion"></section>
+    <section class="proyectos" id="proyectos"></section>
+    <section class="contacto" id="contacto"></section>
     <footer></footer>
   </body>
 </html>

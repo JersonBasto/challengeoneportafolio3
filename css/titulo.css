@@ -1,0 +1,154 @@
+.menu_redes {
+    display: flex;
+    padding: 0;
+}
+.menu_redes_item_image{
+    width: 30px;
+    height: 30px;
+    margin-left: 25%;
+}
+
+.menu_redes_item {
+    list-style-type: none;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu_redes_item a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 0.8em;
+}
+
+.titulo {
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.titulo_info_nombre {
+    font-size: 2.5em;
+}
+
+.titulo_info_bio {
+    justify-content: center;
+    color: rgb(99, 98, 98);
+    text-align: justify;
+    font-size: 1.3em;
+}
+
+.titulo_image {
+    max-width: 250px;
+    max-height: 250px;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    margin: auto;
+    border: 2px solid black;
+}
+
+.titulo_info {
+    width: 65%;
+    margin-right: 5%;
+}
+
+.titulo_div {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 600px) and (max-width:768px) {
+    .titulo_image {
+        width: 150px;
+        height: 150px;
+        margin-bottom: 30%;
+    }
+
+    .titulo_info {
+        width: 100%;
+    }
+
+    .titulo_info_bio {
+        font-size: 1em;
+    }
+
+    .titulo_info_nombre {
+        font-size: 2em;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width:600px) {
+    .titulo_image {
+        width: 150px;
+        height: 150px;
+    }
+
+    .titulo_info {
+        width: 100%;
+    }
+
+    .titulo_info_bio {
+        font-size: 1em;
+    }
+
+    .titulo_info_nombre {
+        font-size: 2em;
+    }
+    .titulo_image {
+        position: absolute;
+        margin: 5% 25% 5% 25%;
+        justify-content: center;
+    }
+    .titulo_info {
+        width: 100%;
+        margin-top: 40%;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .titulo_image {
+        width: 150px;
+        height: 150px;
+    }
+
+    .titulo_info {
+        width: 100%;
+        margin-top: 55%;
+    }
+
+    .titulo_info_bio {
+        font-size: 1em;
+    }
+
+    .titulo_info_nombre {
+        font-size: 1.5em;
+    }
+
+    .menu_redes{
+        padding: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .menu_redes_item {
+        margin: 5px;
+        text-align: center;
+    }
+
+    .menu_redes_item a {
+        font-size: 0.8em;
+    }
+
+    .titulo_div {
+        flex-direction: column;
+    }
+
+    .titulo_image {
+        position: absolute;
+        margin: 5% 25% 5% 25%;
+        justify-content: center;
+    }
+}

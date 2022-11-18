@@ -1,0 +1,23 @@
+.skills_container{
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.skills_div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.skills_item{
+    width: 100px;
+    height: 100px;
+    margin: 2%;
+    text-align: center;
+}
+.skills_item span{
+    cursor: pointer;
+}
+.skills_image{
+    width: 75px;
+    height: 75px;
+    margin-bottom: 10px;
+}
