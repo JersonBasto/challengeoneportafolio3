@@ -1,0 +1,22 @@
+.hobbies_container {
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.hobbies_div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hobbies_item {
+    width: 100px;
+    height: 100px;
+    margin: 2%;
+    text-align: center;
+}
+.hobbies_image{
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+}
