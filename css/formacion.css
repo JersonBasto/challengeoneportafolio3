@@ -53,3 +53,11 @@
 .formacion_item:hover{
     height: 400px;
 }
+
+@media screen and (max-width:425px) {
+    .formacion_image {
+        width: 200px;
+        height: 200px;
+        margin: auto;
+    } 
+}
