@@ -1,0 +1,40 @@
+.contacto_container {
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.contacto_container_divs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contacto_div_input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 45%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+.contacto_div_input_item {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.contacto_div_image {
+    width: 45%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+.contacto_div_input_item:placeholder-shown {
+    background-color: rgb(196, 201, 199);
+}
+
+.contacto_div_input_item:focus{
+    background-color: white;
+}
