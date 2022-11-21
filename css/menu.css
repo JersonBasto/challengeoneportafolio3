@@ -16,13 +16,17 @@
 
 .menu_list_item a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: 600;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .menu_nombre {
     font-size: 110%;
+}
+
+.menu_redes_item_nombre {
+    color: white;
 }
 
 @media screen and (min-width: 426px) and (max-width:768px) {

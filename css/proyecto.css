@@ -16,10 +16,13 @@
     width: 300px;
     height: 300px;
     margin: 2%;
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 5px;
     overflow: hidden;
     transition: all 0.5s;
+    background-color: #870808;
+    z-index: 0;
+    cursor: pointer;
 }
 
 .proyecto_item_tittle {
@@ -44,19 +47,22 @@
 .proyecto_item_image {
     position: absolute;
     z-index: -1;
-    width: 300px;
-    height: 300px;
+    width: 298px;
+    height: 298px;
     opacity: 1;
     transition: 1s;
+    border: 1px solid black;
+    border-radius: 4px;
 }
 
 .proyecto_item_image_2 {
     position: absolute;
     z-index: -1;
-    width: 300px;
-    height: 300px;
+    width: 298px;
+    height: 298px;
     opacity: 0;
     transition: 1s;
+    border: 1px solid black;
 }
 
 .proyecto_item:hover .proyecto_item_tittle {
@@ -95,6 +101,13 @@
 
 .proyecto_item:hover .proyecto_item_skills_images {
     transform: translateX(2px);
+}
+
+.proyectos_tittle{
+    display: flex;
+}
+.proyectos_tittle h4{
+    margin-left: 10%;
 }
 
 @media screen and (max-width:425px) {

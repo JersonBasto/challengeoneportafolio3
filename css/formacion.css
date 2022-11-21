@@ -18,9 +18,9 @@
     text-align: center;
     transition: all 0.5s;
     overflow: hidden;
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 10px;
-    background-color: rgb(232, 233, 234);
+    background-color: #870808;
 }
 
 .formacion_image {
@@ -39,14 +39,14 @@
 }
 
 .formacion_item_titulo {
-    color: rgb(72, 70, 70);
+    color: white;
     margin-bottom: 10px;
     transition: all 1s;
 }
 
 .formacion_item_instituto {
     font-size: 1.2em;
-    color: rgb(110, 108, 108);
+    color: white;
     transition: all 1s;
 }
 
@@ -60,4 +60,12 @@
         height: 200px;
         margin: auto;
     } 
+    .formacion_item {
+        width: 205px;
+        height: 205px;
+    }
+    .formacion_item:hover {
+        width: 250px;
+        height: 400px;
+    }
 }

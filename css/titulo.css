@@ -19,7 +19,7 @@
 
 .menu_redes_item a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: 600;
     font-size: 0.8em;
 }
@@ -35,7 +35,7 @@
 
 .titulo_info_bio {
     justify-content: center;
-    color: rgb(99, 98, 98);
+    color: white;
     text-align: justify;
     font-size: 1.3em;
 }
