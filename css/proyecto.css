@@ -1,6 +1,7 @@
-.proyectos{
+.proyectos {
     transition: all 1s;
 }
+
 .proyectos_container {
     margin-left: 8%;
     margin-right: 8%;
@@ -110,10 +111,11 @@
     transform: translateX(2px);
 }
 
-.proyectos_tittle{
+.proyectos_tittle {
     display: flex;
 }
-.proyectos_tittle h4{
+
+.proyectos_tittle h4 {
     margin-left: 10%;
 }
 
@@ -122,6 +124,8 @@
         position: relative;
         width: 100%;
         height: 100%;
+        margin-top: 0px;
+        margin-left: 0px;
     }
 
     .proyecto_item_image_2 {

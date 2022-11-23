@@ -1,0 +1,43 @@
+.a_swal {
+    width: 150px;
+    height: 40px;
+    padding: 15px;
+    margin: 10px;
+    font-weight: 500;
+    font-size: 110%;
+    border-radius: 10px;
+    background-color: rgb(83, 63, 101);
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.a_swal:hover {
+    cursor: pointer;
+    background-color: aliceblue;
+    color: rgb(83, 63, 101);
+    font-weight: 600;
+}
+
+.a_swal:active {
+    background-color: rgb(69, 70, 71);
+    color: aliceblue;
+}
+.swal_container{
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+@media screen and (max-width:425px) {
+    .a_swal {
+        font-size: 110%;
+        padding: 5px;
+    }
+    .swal_container{
+        display: flex;
+        flex-direction: column;
+    }
+}

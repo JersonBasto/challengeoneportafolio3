@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./css/formacion.css" />
     <link rel="stylesheet" href="./css/proyecto.css" />
     <link rel="stylesheet" href="./css/contacto.css" />
+    <link rel="stylesheet" href="./css/buttonSwal.css">
     <title>Mi Portafolio</title>
   </head>
   <body>
@@ -70,9 +71,7 @@
             </li>
           </ul>
         </div>
-        <div class="titulo_box_content">
           <img class="titulo_image" src="./images/Foto_practica.jpeg" />
-        </div>
       </div>
     </section>
     <section class="sobre_mi translate" id="sobre_mi">
@@ -210,7 +209,7 @@
               <img class="proyecto_item_skills_use" src="./images/python.png" />
             </div>
           </div>
-          <div class="proyecto_item" data-aos="zoom-in">
+          <div class="proyecto_item" onclick=encriptador()>
             <span class="proyecto_item_tittle">Encriptador</span>
             <img class="proyecto_item_image" src="./images/Encriptador.png" />
             <img
@@ -359,5 +358,7 @@
     </section>
     <footer></footer>
     <script defer src="./js/scrollEfecct.js"></script>
+    <script defer src="./js/clickButton.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </body>
 </html>

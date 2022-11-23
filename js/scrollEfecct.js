@@ -5,7 +5,6 @@ const sections = document.querySelectorAll(".translate");
 const proyectoItem = document.querySelectorAll(".proyecto_item");
 const formacionItem = document.querySelectorAll(".formacion_item");
 const hobbiesItem = document.querySelectorAll(".hobbies_item");
-
 const skillsItem = document.querySelectorAll(".skills_item");
 
 const observar = new IntersectionObserver(
@@ -27,12 +26,15 @@ sections.forEach((section) => {
 proyectoItem.forEach((item) => {
   observar.observe(item);
 });
+
 formacionItem.forEach((item) => {
   observar.observe(item);
 });
+
 hobbiesItem.forEach((item) => {
   observar.observe(item);
 });
+
 skillsItem.forEach((item) => {
   observar.observe(item);
 });

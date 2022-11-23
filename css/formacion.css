@@ -46,23 +46,25 @@
     color: white;
 }
 
-.formacion_item:hover{
+.formacion_item:hover {
     height: 400px;
-    box-shadow: white 0px 0px 5px 0px ;
+    box-shadow: white 0px 0px 5px 0px;
 }
 
 @media screen and (max-width:425px) {
     .formacion_image {
         width: 200px;
         height: 200px;
-        margin: auto;
-    } 
+        margin: 0px auto 0px auto;
+    }
+
     .formacion_item {
         width: 205px;
         height: 205px;
     }
+
     .formacion_item:hover {
         width: 250px;
-        height: 400px;
+        height: 320px;
     }
 }
