@@ -2,7 +2,8 @@
     display: flex;
     padding: 0;
 }
-.menu_redes_item_image{
+
+.menu_redes_item_image {
     width: 30px;
     height: 30px;
     margin-left: 25%;
@@ -41,18 +42,18 @@
 }
 
 .titulo_image {
-    max-width: 250px;
-    max-height: 250px;
     width: 250px;
     height: 250px;
     border-radius: 100%;
-    margin: auto;
     border: 2px solid black;
+    margin: 10px auto 0 auto;
+    margin-bottom: 20px;
 }
 
 .titulo_info {
     width: 65%;
     margin-right: 5%;
+    justify-content: center;
 }
 
 .titulo_div {
@@ -60,11 +61,26 @@
     justify-content: space-between;
 }
 
+.titulo_box_content {
+    width: 300px;
+    height: 290px;
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    transition: all 0.5s;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.titulo_info {
+    margin-top: 10px;
+}
+
 @media screen and (min-width: 600px) and (max-width:768px) {
     .titulo_image {
         width: 150px;
         height: 150px;
-        margin-bottom: 30%;
     }
 
     .titulo_info {
@@ -97,11 +113,13 @@
     .titulo_info_nombre {
         font-size: 2em;
     }
-    .titulo_image {
+
+    .titulo_box_content {
         position: absolute;
         margin: 5% 25% 5% 25%;
         justify-content: center;
     }
+
     .titulo_info {
         width: 100%;
         margin-top: 40%;
@@ -116,7 +134,7 @@
 
     .titulo_info {
         width: 100%;
-        margin-top: 55%;
+        margin-top: 60%;
     }
 
     .titulo_info_bio {
@@ -127,7 +145,7 @@
         font-size: 1.5em;
     }
 
-    .menu_redes{
+    .menu_redes {
         padding: 0;
         flex-wrap: wrap;
         justify-content: center;
@@ -146,7 +164,7 @@
         flex-direction: column;
     }
 
-    .titulo_image {
+    .titulo_box_content {
         position: absolute;
         margin: 5% 25% 5% 25%;
         justify-content: center;

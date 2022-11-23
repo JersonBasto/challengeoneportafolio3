@@ -30,28 +30,25 @@
     border: 2px solid black;
     margin-left: 5%;
     margin-bottom: 10px;
-    
 }
 
 .formacion_item_duracion {
     margin-bottom: 10px;
-    transition: all 1s;
 }
 
 .formacion_item_titulo {
     color: white;
     margin-bottom: 10px;
-    transition: all 1s;
 }
 
 .formacion_item_instituto {
     font-size: 1.2em;
     color: white;
-    transition: all 1s;
 }
 
 .formacion_item:hover{
     height: 400px;
+    box-shadow: white 0px 0px 5px 0px ;
 }
 
 @media screen and (max-width:425px) {

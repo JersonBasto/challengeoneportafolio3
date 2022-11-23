@@ -39,6 +39,24 @@
     background-color: white;
 }
 
+.contacto_div_button_item{
+    width: 70px;
+    height: 35px;
+    margin: auto;
+    background-color: #870808;
+    border: 1px solid white;
+    font-weight: 600;
+    font-size: 100%;
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+.contacto_div_button_item:hover{
+    color:#870808;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
 @media screen and (min-width: 600px) and (max-width:768px) {
     .contacto_div_image {
         width: 100%;

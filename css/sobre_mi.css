@@ -1,7 +1,12 @@
 .sobre_mi {
-    background: rgb(2, 0, 36);
-    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(39, 45, 38, 1) 0%, rgba(23, 207, 20, 1) 100%);
+    background: #333333;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #333333, #dd1818);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #333333, #dd1818);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 10px;
+    box-shadow: white 0px 0px 2px 0px ;
 }
 
 .sobre_mi_div {
@@ -21,7 +26,7 @@
     font-size: 1.2em;
     color: rgb(201, 181, 181);
     font-weight: 500;
-    -webkit-text-stroke:1px rgb(201, 181, 181);
+    -webkit-text-stroke: 1px rgb(201, 181, 181);
 }
 
 @media screen and (min-width: 426px) and (max-width:768px) {

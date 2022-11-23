@@ -35,7 +35,7 @@
     background-color: rgb(230, 235, 240);
     border: 2px solid rgb(159, 160, 161);
     transition: all 0.5s;
-    margin-bottom: 300px;
+    margin-bottom: 270px;
 }
 
 .proyecto_item_description {
@@ -47,8 +47,10 @@
 .proyecto_item_image {
     position: absolute;
     z-index: -1;
-    width: 298px;
-    height: 298px;
+    width: 270px;
+    height: 270px;
+    margin-top: 15px;
+    margin-left: 15px;
     opacity: 1;
     transition: 1s;
     border: 1px solid black;
@@ -58,8 +60,10 @@
 .proyecto_item_image_2 {
     position: absolute;
     z-index: -1;
-    width: 298px;
-    height: 298px;
+    width: 270px;
+    height: 270px;
+    margin-top: 15px;
+    margin-left: 15px;
     opacity: 0;
     transition: 1s;
     border: 1px solid black;
