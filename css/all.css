@@ -1,7 +1,6 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background: rgb(2, 0, 36);
-    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(23, 17, 17, 1) 0%, rgba(208, 25, 25, 1) 100%);
+    background: radial-gradient(circle, rgb(0, 213, 255), #810587, green, black);
     color: aliceblue;
 }
 

@@ -6,6 +6,7 @@
 .contacto_container_divs {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .contacto_div_input {
@@ -39,7 +40,7 @@
     background-color: white;
 }
 
-.contacto_div_button_item{
+.contacto_div_button_item {
     width: 70px;
     height: 35px;
     margin: auto;
@@ -51,11 +52,12 @@
     border-radius: 5px;
 }
 
-.contacto_div_button_item:hover{
-    color:#870808;
+.contacto_div_button_item:hover {
+    color: #870808;
     background-color: aliceblue;
     cursor: pointer;
 }
+
 
 @media screen and (min-width: 600px) and (max-width:768px) {
     .contacto_div_image {
