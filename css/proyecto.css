@@ -126,3 +126,29 @@
     gap: 20px;
     justify-content: center;
 }
+
+.proyecto_item_plus{
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 10px;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    background: rgb(153, 237, 153);
+    transform: translateY(-100px);
+    transition: 0.5s;
+    padding: 0;
+    border: none;
+}
+
+.proyecto_item_plus:hover{
+    cursor: pointer;
+}
+.proyecto_item_plus_image{
+    width: 36px;
+    height: 36px;
+}
+.proyecto_item:hover .proyecto_item_plus{
+    z-index: 1;
+    transform: translateY(0px);
+}
