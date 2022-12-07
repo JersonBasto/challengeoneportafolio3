@@ -1,0 +1,33 @@
+.redes_container{
+    margin-top: 20px;
+    margin-left: 8%;
+    margin-right: 8%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.redes_list{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.redes_list_image{
+    width: 30px;
+    height: 30px;
+}
+
+.redes_list_item{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;   
+    gap: 10px;
+    margin-bottom: 10px;
+}

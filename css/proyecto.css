@@ -145,8 +145,8 @@
     cursor: pointer;
 }
 .proyecto_item_plus_image{
-    width: 36px;
-    height: 36px;
+    width: 40px;
+    height: 40px;
 }
 .proyecto_item:hover .proyecto_item_plus{
     z-index: 1;
