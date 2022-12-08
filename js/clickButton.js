@@ -1,6 +1,5 @@
 
 const encriptador = () => {
-  console.log("Ir");
   Swal.fire({
     title: "¿ A donde quieres ir?",
     icon: "question",
@@ -13,7 +12,6 @@ const encriptador = () => {
 };
 
 const ahorcado = () => {
-  console.log("Ir");
   Swal.fire({
     title: "¿ A donde quieres ir?",
     icon: "question",
@@ -26,7 +24,6 @@ const ahorcado = () => {
 };
 
 const juegoDados = () => {
-  console.log("Ir");
   Swal.fire({
     title: "¿ A donde quieres ir?",
     icon: "question",
@@ -38,7 +35,6 @@ const juegoDados = () => {
 };
 
 const libretaCelular = () => {
-  console.log("Ir");
   Swal.fire({
     title: "¿ A donde quieres ir?",
     icon: "question",
@@ -50,7 +46,6 @@ const libretaCelular = () => {
 };
 
 const Bingo = () => {
-  console.log("Ir");
   Swal.fire({
     title: "¿ A donde quieres ir?",
     icon: "question",
@@ -62,7 +57,6 @@ const Bingo = () => {
 };
 
 const EducaTeam = () => {
-  console.log("Ir");
   Swal.fire({
     title: "¿ A donde quieres ir?",
     icon: "question",
@@ -76,13 +70,23 @@ const EducaTeam = () => {
 
 
 const BingoMulti = () => {
-  console.log("Ir");
   Swal.fire({
     title: "¿ A donde quieres ir?",
     icon: "question",
     html:
       '<div class="swal_container">' +
       '<a class="a_swal_2" href="https://github.com/JersonBasto/Bingo-Multijugador" target="_blank">Git-Hub</a>' +
+      '</div>',
+  });
+};
+
+const Simulador = () => {
+  Swal.fire({
+    title: "¿ A donde quieres ir?",
+    icon: "question",
+    html:
+      '<div class="swal_container">' +
+      '<a class="a_swal_2" href="https://github.com/JersonBasto/Simulador-Maniobras" target="_blank">Git-Hub</a>' +
       '</div>',
   });
 };
