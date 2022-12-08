@@ -73,3 +73,16 @@ const EducaTeam = () => {
       '</div>',
   });
 };
+
+
+const BingoMulti = () => {
+  console.log("Ir");
+  Swal.fire({
+    title: "¿ A donde quieres ir?",
+    icon: "question",
+    html:
+      '<div class="swal_container">' +
+      '<a class="a_swal_2" href="https://github.com/JersonBasto/Bingo-Multijugador" target="_blank">Git-Hub</a>' +
+      '</div>',
+  });
+};
