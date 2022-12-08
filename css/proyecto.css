@@ -51,17 +51,23 @@
 
 .proyecto_item_image {
     position: absolute;
-    width: 300px;
-    width: 300px;
+    width: 250px;
+    width: 250px;
     transition: 0.5s;
+    margin-left: 25px;
+    border: 2px solid black;
+    border-radius: 10px;
 }
 
 .proyecto_item_image_2 {
     position: absolute;
-    width: 300px;
-    width: 300px;
+    width: 250px;
+    width: 250px;
     transition: 0.2s;
     opacity: 0;
+    margin-left: 25px;
+    border: 2px solid black;
+    border-radius: 10px;
 }
 
 .proyecto_div_images::before {
