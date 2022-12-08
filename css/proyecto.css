@@ -160,3 +160,28 @@
     z-index: 1;
     transform: translateY(0px);
 }
+.proyecto_hazClick{
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: black;
+    margin-left: 10px;
+    transition: 0.5s;
+    font-weight: 600;
+    background: linear-gradient(180deg, gray 60%, white );
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-top: 10px;
+    transform: translateY(-100px);
+}
+.proyecto_hazClick_image{
+    width: 30px;
+    height: 30px;
+}
+.proyecto_item:hover .proyecto_hazClick{
+    transform: translateY(0px);
+}
